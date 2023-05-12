@@ -116,3 +116,18 @@ body{
 .card:nth-child(4){
     border-left: 7px solid #cc3c43;
 }
+.card > span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-inner > p{
+    font-size: 10px;
+}
+.card-inner > span{
+    font-size: 35px;
+}
