@@ -67,6 +67,10 @@ body{
     background-color: rgba(255,255,255,0.2);
     cursor: pointer;
 }
+.sidebar-responsive{
+    display: inline !important;
+    position: absolute;
+}
 .main-container{
     grid-area: main;
     overflow-y: auto;
