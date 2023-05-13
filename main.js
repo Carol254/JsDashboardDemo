@@ -60,3 +60,52 @@ var barChartOptions = {
 
   var barChart = new ApexCharts(document.querySelector("#bar-chart"),barChartOptions);
   barChart.render();
+
+
+  //area chart options
+  var areaChartOptions = {
+    series: [{
+    name: 'Purchase Orders',
+    data: [31,40,28,51,42,109,100]
+  }, {
+    name: 'Sales Orders',
+    data: [11,32,45,32,34,52,45]
+  }],
+    chart: {
+    height: 350,
+    type: 'area',
+    toolbar:{
+        show:false
+      },
+  },
+  colors:[
+    "#f5b741",
+    "#4f35a1"
+],
+  stroke: {
+    curve: 'smooth'
+  },
+  dataLabels:{
+    enabled:false
+    },
+  labels: ['Jan', 'Feb','Mar','April','May','June','July'],
+  markers: {
+    size: 0
+  },
+  yaxis: [
+    {
+      title: {
+        text: 'Purchase Orders',
+      },
+    },
+    {
+      opposite: true,
+      title: {
+        text: 'Sales Orders',
+      },
+    },
+  ],
+  };
+
+  var areaChart = new ApexCharts(document.querySelector("#area-chart"), areaChartOptions);
+  areaChart.render();
