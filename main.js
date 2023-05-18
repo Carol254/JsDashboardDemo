@@ -43,7 +43,7 @@ var barChartOptions = {
       data: [3,2,4,5,6]
     }],
     dataLabels:{
-        enabled:false
+        enabled:true
     },
     legend:{
         show:false
@@ -53,7 +53,8 @@ var barChartOptions = {
     },
     yaxis:{
         title:{
-            text:'Count'
+            text:'Count',
+            
         }
     }
   };
