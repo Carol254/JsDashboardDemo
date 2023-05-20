@@ -175,6 +175,28 @@ body{
     display: inline;
    }
 }
+.tooltip{
+    position:relative;
+}
+.tooltip .tooltiptext{
+    position:absolute;
+    visibility: hidden;
+    z-index: 1;
+    bottom:100%;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 10px;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
 
 /* small screen <=768px */
 
