@@ -191,7 +191,7 @@ body{
     padding: 5px 0;
     left: 50%;
     margin-left: -60px;
-    font-size: 10px;
+    
 }
 .tooltip:hover .tooltiptext{
     visibility: visible;
