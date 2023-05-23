@@ -183,8 +183,8 @@ body{
     position:absolute;
     visibility: hidden;
     z-index: 1;
-    bottom:100%;
-    width: 120px;
+    top:100%;
+    text-transform: lowercase;
     background-color: black;
     color: #fff;
     text-align: center;

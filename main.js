@@ -110,3 +110,7 @@ var barChartOptions = {
 
   var areaChart = new ApexCharts(document.querySelector("#area-chart"), areaChartOptions);
   areaChart.render();
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
